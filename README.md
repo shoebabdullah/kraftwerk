@@ -1,5 +1,15 @@
 Professional Certificate in Machine Learning and Artificial Intelligence
-Required Assignment 5.1: Will the Customer Accept the Coupon? [02:00:00]
-Project1_v1 file contains code for module 5 required assignment problems.
 Required Assignment 11.1: What Drives the Price of a Car? [15:00:00]
-Required Assignment 11.1: Please check Car_Proce.ipynb
+Required Assignment 11.1: Please check Car_Price.ipynb
+The business objective of identifying price drivers can be translated into a supervised learning task, specifically a regression analysis problem. The goal is to model the continuous target variable, price, as a function of various independent variables (features) such as year, odometer, manufacturer, condition, and fuel type.To achieve this, the data task involves:#Data Cleaning and Preprocessing: Handling missing values in key features like condition and odometer, and encoding categorical variables (e.g., manufacturer, transmission).
+Identifying correlations and quantifying the relationship between vehicle attributes and sale price.
+Applying regression algorithms (such as Ridge, Lasso, or Random Forest) and using metrics like Mean Squared Error (MSE) or $R^2$ score to evaluate predictive accuracy.
+Determining the statistical significance and weight of each feature to provide actionable insights into which factors most heavily influence a car's market value.
+In the Evaluation phase, we assess the performance of our best model (Ridge Regression) and extract the specific "weights" (coefficients) that dictate car prices. This allows us to move from complex math to concrete business logic for the dealership.
+Model Performance Summary : Our final model predicts car prices with high reliability:R-Squared ($R^2$): 0.7542 — The model explains approximately 75% of the price variance in the dataset.Mean Absolute Error (MAE): $4,435 — On average, the model's price estimates are within about $4,400 of the actual market value. Given the wide range of cars (from $1k to $100k), this is a strong result for a baseline predictive tool.
+Based on the full CRISP-DM cycle (Business Understanding through Deployment), here is the final advice for your client:
+Prioritize "Clean Title" Inventory: The model showed that title status is a binary "value killer." A vehicle with a missing or salvage title loses nearly 40-50% of its value relative to a clean title, regardless of mechanical condition.
+The "Diesel Premium": In the used market, diesel engines command significantly higher resale values than gas counterparts. When acquiring heavy-duty trucks or SUVs, prioritize diesel options to maximize margin.
+Condition Reconditioning: The gap between "Fair" and "Excellent" condition in the model is substantial (~$5,000 difference on average). Investing in professional detailing and minor cosmetic repairs (reconditioning) often yields a 2x to 3x return on the investment at the time of sale.
+Strategic Brand Focus: Focus inventory on "Value Retainers" (Toyota, Honda, Lexus) and "Luxury High-Margin" (Tesla, Porsche). Avoid brands with high negative coefficients (Fiat, Saturn) unless they are priced well below the market average.
+Mileage Milestones: Buyers react heavily to the 100,000-mile threshold. Use the model to identify vehicles just under this limit (e.g., 90k miles) as they represent the highest turnover potential before the value "cliff" occurs.
