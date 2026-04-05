@@ -59,3 +59,9 @@
 <br>* **#Overfitting:** The Decision Tree showed signs of overfitting, achieving the highest training accuracy (91.66%) but the lowest test accuracy (86.10%). This suggests the tree grew too complex and captured noise in the training data.<br /> 
 
 <br>* **#Model Stability:** Logistic Regression and SVM provided the most stable results between training and testing sets, although they largely defaulted to predicting the majority class.<br /> 
+
+  Model  Train Time (s)  Train Accuracy  Test Accuracy
+0  Logistic Regression          0.0320          0.8876         0.8865
+1                  KNN          0.0055          0.8897         0.8736
+2        Decision Tree          0.1163          0.9166         0.8610
+3                  SVM         24.9186          0.8878         0.8867
