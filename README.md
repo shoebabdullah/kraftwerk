@@ -46,4 +46,4 @@
 <br>## How to Run<br /> 
 <br>1. Ensure you have `pandas`, `numpy`, and `scikit-learn` installed.<br /> 
 <br>2. Place the `bank-additional-full.csv` file in the appropriate directory.<br /> 
-<br>3. Run the cells in `prompt_III.ipynb` sequentially.<br /> 
+<br>3. Run the cells in `Practical Application 3 Compairing Classifiers.ipynb` sequentially.<br /> 
