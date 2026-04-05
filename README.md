@@ -60,8 +60,8 @@
 
 <br>* **#Model Stability:** Logistic Regression and SVM provided the most stable results between training and testing sets, although they largely defaulted to predicting the majority class.<br /> 
 
-  Model  Train Time (s)  Train Accuracy  Test Accuracy
-0  Logistic Regression          0.0320          0.8876         0.8865
-1                  KNN          0.0055          0.8897         0.8736
-2        Decision Tree          0.1163          0.9166         0.8610
-3                  SVM         24.9186          0.8878         0.8867
+<br>* **  Model  Train Time (s)  Train Accuracy  Test Accuracy **<br /> 
+<br>0  Logistic Regression          0.0320          0.8876         0.8865<br />
+<br>1                  KNN          0.0055          0.8897         0.8736<br />
+<br>2        Decision Tree          0.1163          0.9166         0.8610<br />
+<br>3                  SVM         24.9186          0.8878         0.8867<br />
