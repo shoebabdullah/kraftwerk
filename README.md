@@ -47,3 +47,15 @@
 <br>1. Ensure you have `pandas`, `numpy`, and `scikit-learn` installed.<br /> 
 <br>2. Place the `bank-additional-full.csv` file in the appropriate directory.<br /> 
 <br>3. Run the cells in `Practical Application 3 Compairing Classifiers.ipynb` sequentially.<br /> 
+<br>* **#Key Observations:**<br /> 
+<br>#Baseline Proximity: Most models achieve a test accuracy around 88.6%, which is the same as the baseline (predicting "no" for everyone). This indicates that the basic bank demographic features alone provide limited predictive power for identifying subscribers.<br /> 
+
+<br>#Training Speed:<br /> 
+
+<br>#KNN and Logistic Regression were the fastest to train, making them highly efficient for initial assessments.<br /> 
+
+<br>#SVM was significantly slower, taking over 80 seconds to train, which is a major drawback as the dataset scales.<br /> 
+
+<br>#Overfitting: The Decision Tree showed signs of overfitting, achieving the highest training accuracy (91.66%) but the lowest test accuracy (86.10%). This suggests the tree grew too complex and captured noise in the training data.<br /> 
+
+<br>#Model Stability: Logistic Regression and SVM provided the most stable results between training and testing sets, although they largely defaulted to predicting the majority class.<br /> 
