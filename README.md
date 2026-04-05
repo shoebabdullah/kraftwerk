@@ -8,3 +8,42 @@
 <br>* **Logistic Regression**<br /> 
 <br>* **Decision Trees**<br /> 
 <br>* **Support Vector Machines (SVM)**<br /> 
+<br>## 1. Understanding the Data<br /> 
+<br>The dataset represents **17 marketing campaigns** conducted between May 2008 and November 2010. It includes:
+<br>* **Bank client data**: Age, job, marital status, education, etc.<br /> 
+<br>* **Communication details**: Contact type, day of the week, and month.<br /> 
+<br>* **Socio-economic indicators**: Employment variation rate, consumer price index, and euribor 3-month rate.<br /> 
+
+<br>## 2. Data Preparation & Engineering<br /> 
+<br>To ensure a realistic and efficient model, the following preprocessing steps were taken:<br /> 
+<br>* **Handling Missing Values**: Categorical 'unknown' values were treated as missing data and replaced with `NaN`.<br /> 
+<br>* **Data Leakage Prevention**: The `duration` feature was dropped because it is only known after a call is performed and is highly correlated with the target variable.<br /> 
+<br>* **Feature Encoding**: <br /> 
+<br>    * The target variable `y` was coerced into a binary numeric format (1 for 'yes', 0 for 'no').<br /> 
+<br>    * Categorical features (job, marital, education, etc.) were transformed using **One-Hot Encoding** to create binary columns.<br /> 
+<br>* **Data Optimization**: Object columns were converted to optimized `category` types to improve memory efficiency.<br /> 
+
+<br>## 3. Business Objective<br /> 
+<br>The goal is to move beyond mass-marketing and focus on "high-potential" clients. Key benefits include:<br /> 
+<br>* **Optimized Efficiency**: Focusing resources on likely converts.<br /> 
+<br>* **Reduced Costs**: Minimizing unnecessary contact attempts.<br /> 
+<br>* **Enhanced Customer Experience**: Reducing intrusive calls to uninterested clients.<br /> 
+
+<br>## 4. Modeling Approach<br /> 
+<br>### Baseline Performance<br /> 
+<br>A baseline was established to determine the minimum accuracy the models must beat, typically representing the majority class (non-subscribers).<br /> 
+
+<br>### Train/Test Split<br /> 
+<br>The data was split into a **Training set (80%)** and a **Testing set (20%)** to evaluate how well the models generalize to unseen data.<br /> 
+<br>* **Training set shape**: (32950, 53)<br /> 
+<br>* **Testing set shape**: (8238, 53)<br /> 
+
+<br>## 5. Preliminary Findings<br /> 
+<br>Initial analysis of the Support Vector Machine (SVM) and other models suggests:<br /> 
+<br>* **Tuning**: Accuracy varies significantly based on kernel choice and complexity ($C$ values).<br /> 
+<br>* **Recall Challenges**: While models are precise in identifying non-subscribers, they often miss a portion of actual subscribers (lower recall), which is a critical area for improvement in marketing campaigns.<br /> 
+
+<br>## How to Run<br /> 
+<br>1. Ensure you have `pandas`, `numpy`, and `scikit-learn` installed.<br /> 
+<br>2. Place the `bank-additional-full.csv` file in the appropriate directory.<br /> 
+<br>3. Run the cells in `prompt_III.ipynb` sequentially.<br /> 
