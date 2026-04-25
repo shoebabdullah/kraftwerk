@@ -41,7 +41,7 @@ To observe natural groupings blindly (without using labels), an unsupervised pip
 
 *(Note: Add the generated `class_distribution.png`, `pca_kmeans_clusters.png`, and `pca_true_labels.png` from your EDA to your repository and embed them in this section).*
 
-## Next Steps & Future Work
+## Next Steps & Future Work (This will be completed in final capstone project submission in Module 24)
 To improve the tool and fully address the research question, the next phases of the project will focus on:
 1. **Contextual Embeddings:** Transitioning from TF-IDF to contextual deep learning embeddings (e.g., BERT, Word2Vec) to better understand word associations and disambiguate overlapping terminology.
 2. **Ensemble & Advanced Methods:** Utilizing algorithms like Random Forests, XGBoost, or Deep Neural Networks to capture non-linear relationships that the baseline model may have missed.
