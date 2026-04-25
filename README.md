@@ -1,5 +1,7 @@
 # Capstone Project: Automated Extraction of Pros and Cons from Business Documents
 
+# Module 20 Submission Required Capstone Assignment 20.1: Initial Report and Exploratory Data Analysis (EDA)
+
 ## Overview
 Reading through long business documents to find the "good" and "bad" points takes too much time and often leads to people missing important details. This project builds a smart tool that automatically scans these documents to pull out a balanced list of Pros and Cons, helping people make faster, unbiased decisions.
 
