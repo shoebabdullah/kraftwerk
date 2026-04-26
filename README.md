@@ -59,7 +59,7 @@ To further investigate the research question, I have implemented several advance
 | Decision Tree        |   0.765    |    0.763158 | 0.72242  |   0.74223  |
 | Neural Network (MLP) |   0.74     |    0.716263 | 0.736655 |   0.726316 |
 
-*Results show that Logistic Regression performed the best with an accuracy of 83.00%.*
+*Results show that Logistic Regression performed the best with an accuracy of 83%.*
 
 ## Conclusion
 The results confirm that machine learning can effectively automate the extraction of "Pros" and "Cons" from unstructured text. Future iterations will focus on transformer-based embeddings to improve semantic understanding.
