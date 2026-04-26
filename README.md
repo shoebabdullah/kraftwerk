@@ -39,7 +39,7 @@ To observe natural groupings blindly (without using labels), an unsupervised pip
 
 *Insight:* While K-Means cleanly splits the space into two clusters, comparing this to the true labels reveals a dense region of overlap in the center. Because both positive and negative points share common business terminology (e.g., "product interface"), simple word counts blend together. 
 
-*(Note: Added `class_distribution.png`, `pca_kmeans_clusters.png`, and `pca_true_labels.png` from your EDA to your repository and embed them in this section).*
+*(Note: Added `class_distribution.png`, `pca_kmeans_clusters.png`, and `pca_true_labels.png` from your EDA to the repository).*
 
 ## Next Steps & Future Work (This will be completed in final capstone project submission in Module 24)
 To improve the tool and fully address the research question, the next phases of the project will focus on:
