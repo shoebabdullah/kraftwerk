@@ -48,7 +48,7 @@ To improve the tool and fully address the research question, the next phases of 
 
 
 ## Expanded Model Comparison
-To further investigate the research question, we implemented several advanced supervised learning algorithms. Below is a comparison of their performance:
+To further investigate the research question, I have implemented several advanced supervised learning algorithms. Below is a comparison of their performance:
 
 | Model                |   Accuracy |   Precision |   Recall |   F1-Score |
 |:---------------------|-----------:|------------:|---------:|-----------:|
