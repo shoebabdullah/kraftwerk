@@ -61,7 +61,7 @@ The primary objective is to transform unstructured business narratives into acti
 ## Project Architecture
 <img width="348" height="722" alt="image" src="https://github.com/user-attachments/assets/c21e483c-bb4a-4553-95ab-ba07ddc70bc4" />
 
-## Dataset : CapstoneDataSet.csv
+## Dataset : CapstoneDataSet.csv https://github.com/shoebabdullah/kraftwerk/blob/main/CapstoneDataSet.csv
 The dataset consists of **3,000 unstructured text snippets** from business documents and reviews, labeled as either Pros (1) or Cons (0).
 * **Cleaned Data:** 2,996 records (4 rows with corrupted/missing labels were removed).
 * **Class Distribution:** The dataset is perfectly balanced with a ~50/50 split between Pros and Cons, mitigating class imbalance bias.
