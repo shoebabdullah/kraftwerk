@@ -1,12 +1,27 @@
 # Capstone Project: Automated Extraction of Pros and Cons from Business Documents
 
-# Module 20 Submission Required Capstone Assignment 20.1: Initial Report and Exploratory Data Analysis (EDA)
+# Module 24 Required Capstone Project 24.1: Final Report
 
 ## Overview
 Reading through long business documents to find the "good" and "bad" points takes too much time and often leads to people missing important details. This project builds a smart tool that automatically scans these documents to pull out a balanced list of Pros and Cons, helping people make faster, unbiased decisions.
 
 * **Pros (The "Upside"):** Reasons to say "Yes" (benefits, gains, opportunities).
 * **Cons (The "Downside"):** Reasons to say "No" (risks, costs, potential problems).
+
+### This capstone project develops an end-to-end Natural Language Processing (NLP) and Machine Learning pipeline that analyzes business and financial text to identify positive and negative sentiment, compare machine learning models, discover hidden text patterns through clustering, and generate strategic insights from external PDF documents.
+
+### The system combines:
+
+### Text preprocessing and feature engineering
+### Exploratory Data Analysis (EDA)
+### Supervised machine learning classification
+### Hyperparameter optimization
+### Unsupervised learning
+### PDF document parsing
+### Automated strategic pros and cons extraction
+### Data visualization and reporting
+
+The primary objective is to transform unstructured business narratives into actionable insights that help identify organizational strengths, opportunities, risks, and challenges.
 
 ## Research Question
 To what extent can a machine learning model be trained using unsupervised clustering and supervised ensemble methods to accurately extract and categorize "Pros" and "Cons" from unstructured business documents to improve decision-making efficiency?
