@@ -35,7 +35,7 @@ Organizations generate large volumes of qualitative information through:
 * Corporate disclosures
 * Strategic planning documents
 
-Manually reviewing these documents is time-consuming and subjective.
+### Manually reviewing these documents is time-consuming and subjective.
 
 This project demonstrates how machine learning and NLP techniques can automatically:
 
