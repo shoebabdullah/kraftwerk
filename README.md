@@ -44,7 +44,7 @@ This project demonstrates how machine learning and NLP techniques can automatica
 * Compare predictive model performance
 * Extract strategic opportunities and risks from financial reports
 
-## Dataset CapstoneDataSet.csv
+## Dataset : CapstoneDataSet.csv
 The dataset consists of **3,000 unstructured text snippets** from business documents and reviews, labeled as either Pros (1) or Cons (0).
 * **Cleaned Data:** 2,996 records (4 rows with corrupted/missing labels were removed).
 * **Class Distribution:** The dataset is perfectly balanced with a ~50/50 split between Pros and Cons, mitigating class imbalance bias.
