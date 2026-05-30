@@ -21,6 +21,8 @@
 *  Automated strategic pros and cons extraction
 *  Data visualization and reporting
 
+The primary objective is to transform unstructured business narratives into actionable insights that help identify organizational strengths, opportunities, risks, and challenges.
+
 ## Research Question
 To what extent can a machine learning model be trained using unsupervised clustering and supervised ensemble methods to accurately extract and categorize "Pros" and "Cons" from unstructured business documents to improve decision-making efficiency?
 
