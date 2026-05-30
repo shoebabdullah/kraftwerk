@@ -14,12 +14,12 @@
 
 * Text preprocessing and feature engineering
 * Exploratory Data Analysis (EDA)
- Supervised machine learning classification
- Hyperparameter optimization
- Unsupervised learning
- PDF document parsing
- Automated strategic pros and cons extraction
- Data visualization and reporting
+*  Supervised machine learning classification
+*  Hyperparameter optimization
+*  Unsupervised learning
+*  PDF document parsing
+*  Automated strategic pros and cons extraction
+*  Data visualization and reporting
 
 The primary objective is to transform unstructured business narratives into actionable insights that help identify organizational strengths, opportunities, risks, and challenges.
 
