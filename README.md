@@ -69,6 +69,10 @@ The dataset consists of **3,000 unstructured text snippets** from business docum
 | Positive statement | 1     |
 | Negative statement | 0     |
 
+Example : 
+"Our company achieved record growth",1
+"Inflation pressures negatively impacted margins",0
+
 ## Text preprocessing and feature engineering
 
 ## Exploratory Data Analysis (EDA) & Feature Engineering
