@@ -95,12 +95,12 @@ Strategic Insight Extraction
 Pros / Cons Reporting
 
 ## Technologies Used
-* Programming Language : Python
-* Data Processing : NumPy, Pandas
-* Machine Learning : Scikit-Learn
-* Natural Language Processing : TF-IDF Vectorization
-* Data Visualization : Matplotlib, Seaborn, WordCloud
-* Document Processing : PyPDF
+* **Programming Language :** Python
+* **Data Processing :** NumPy, Pandas
+* **Machine Learning :** Scikit-Learn
+* **Natural Language Processing :** TF-IDF Vectorization
+* **Data Visualization :** Matplotlib, Seaborn, WordCloud
+* **Document Processing :** PyPDF
 
 ## Text preprocessing and feature engineering
 
