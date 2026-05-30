@@ -52,50 +52,6 @@ The dataset consists of **3,000 unstructured text snippets** from business docum
 ## Project Architecture
 <img width="348" height="722" alt="image" src="https://github.com/user-attachments/assets/c21e483c-bb4a-4553-95ab-ba07ddc70bc4" />
 
-Dataset
-   │
-   ▼
-Data Cleaning
-   │
-   ▼
-Feature Engineering (TF-IDF)
-   │
-   ▼
-Exploratory Data Analysis
-   │
-   ├── Class Distribution
-   ├── Text Length Analysis
-   ├── TF-IDF Importance Charts
-   └── Word Clouds
-   │
-   ▼
-Supervised Learning
-   │
-   ├── Logistic Regression
-   ├── Decision Tree
-   ├── Random Forest
-   └── Gradient Boosting
-   │
-   ▼
-Model Optimization
-(GridSearchCV)
-   │
-   ▼
-Performance Evaluation
-   │
-   ▼
-Unsupervised Learning
-(PCA + K-Means)
-   │
-   ▼
-PDF Parsing Engine
-   │
-   ▼
-Strategic Insight Extraction
-   │
-   ▼
-Pros / Cons Reporting
-
 ## Technologies Used
 * **Programming Language :** Python
 * **Data Processing :** NumPy, Pandas
