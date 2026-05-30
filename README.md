@@ -70,9 +70,9 @@ The dataset consists of **3,000 unstructured text snippets** from business docum
 | Negative statement | 0     |
 
 Example : 
-"Our company achieved record growth" = 1
-"Inflation pressures negatively impacted margins" = 0
-| Our company achieved record growth | 1     |
+| Statement                                       | Value |
+| ------------------------------------------------| ------| 
+| Our company achieved record growth              | 1     |
 | Inflation pressures negatively impacted margins | 0     |
 
 ## Text preprocessing and feature engineering
