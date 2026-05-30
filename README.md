@@ -65,16 +65,13 @@ To improve the tool and fully address the research question, the next phases of 
 ## Expanded Model Comparison
 To further investigate the research question, I have implemented several advanced supervised learning algorithms. Below is a comparison of their performance:
 
-| Model                |   Accuracy |   Precision |   Recall |   F1-Score |
-|:---------------------|-----------:|------------:|---------:|-----------:|
-| Logistic Regression  |   0.83     |    0.825455 | 0.807829 |   0.816547 |
-| Random Forest        |   0.823333 |    0.848606 | 0.758007 |   0.800752 |
-| Lasso (L1 Logistic)  |   0.798333 |    0.838983 | 0.704626 |   0.765957 |
-| Gradient Boosting    |   0.798333 |    0.88835  | 0.651246 |   0.75154  |
-| Decision Tree        |   0.765    |    0.763158 | 0.72242  |   0.74223  |
-| Neural Network (MLP) |   0.74     |    0.716263 | 0.736655 |   0.726316 |
+###              Model  CV Mean Accuracy  Test Accuracy  Precision  F1-Score
+### Logistic Regression          0.781309       0.791667   0.800687  0.788494
+###       Random Forest          0.772545       0.783333   0.821970  0.769504
+###   Gradient Boosting          0.736651       0.743333   0.880208  0.686992
+###       Decision Tree          0.744582       0.740000   0.746575  0.736486
 
-*Results show that Logistic Regression performed the best with an accuracy of 83%.*
+*Results show that Logistic Regression performed the best with an accuracy of 78%.*
 
 ## Conclusion
 The results confirm that machine learning can effectively automate the extraction of "Pros" and "Cons" from unstructured text. Future iterations will focus on transformer-based embeddings to improve semantic understanding.
