@@ -1,14 +1,14 @@
 # Required Capstone Project Module 24.1 - Final Report : Automated Extraction of Pros and Cons from Business Documents
 ## Overview
-## Reading through long business documents to find the "good" and "bad" points takes too much time and often leads to people missing important details. This project builds a smart tool that automatically scans these documents to pull out a balanced list of Pros and Cons, helping people make faster, unbiased decisions.
+### Reading through long business documents to find the "good" and "bad" points takes too much time and often leads to people missing important details. This project builds a smart tool that automatically scans these documents to pull out a balanced list of Pros and Cons, helping people make faster, unbiased decisions.
 
 * **Pros (The "Upside"):** Reasons to say "Yes" (benefits, gains, opportunities).
 * **Cons (The "Downside"):** Reasons to say "No" (risks, costs, potential problems).
 
-## Research Question
+### Research Question
 To what extent can a machine learning model be trained using unsupervised clustering and supervised ensemble methods to accurately extract and categorize "Pros" and "Cons" from unstructured business documents to improve decision-making efficiency?
 
-## Business Problem
+### Business Problem
 
 Organizations generate large volumes of qualitative information through:
 * Annual reports
