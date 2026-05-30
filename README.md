@@ -41,9 +41,6 @@ This project demonstrates how machine learning and NLP techniques can automatica
 
 The primary objective is to transform unstructured business narratives into actionable insights that help identify organizational strengths, opportunities, risks, and challenges.
 
-## Project Architecture
-<img width="348" height="722" alt="image" src="https://github.com/user-attachments/assets/c21e483c-bb4a-4553-95ab-ba07ddc70bc4" />
-
 ## Technologies Used
 * **Programming Language :** Python
 * **Data Processing :** NumPy, Pandas
@@ -58,6 +55,9 @@ The primary objective is to transform unstructured business narratives into acti
 * **Natural Language Processing :** TF-IDF Vectorization
 * **Data Visualization :** Matplotlib, Seaborn, WordCloud
 * **Document Processing :** PyPDF
+  
+## Project Architecture
+<img width="348" height="722" alt="image" src="https://github.com/user-attachments/assets/c21e483c-bb4a-4553-95ab-ba07ddc70bc4" />
 
 ## Dataset : CapstoneDataSet.csv
 The dataset consists of **3,000 unstructured text snippets** from business documents and reviews, labeled as either Pros (1) or Cons (0).
