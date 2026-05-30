@@ -26,6 +26,25 @@ The primary objective is to transform unstructured business narratives into acti
 ## Research Question
 To what extent can a machine learning model be trained using unsupervised clustering and supervised ensemble methods to accurately extract and categorize "Pros" and "Cons" from unstructured business documents to improve decision-making efficiency?
 
+## Business Problem
+
+Organizations generate large volumes of qualitative information through:
+
+Annual reports
+Earnings statements
+Investor presentations
+Corporate disclosures
+Strategic planning documents
+
+Manually reviewing these documents is time-consuming and subjective.
+
+This project demonstrates how machine learning and NLP techniques can automatically:
+
+Classify positive and negative business statements
+Detect key themes within text
+Compare predictive model performance
+Extract strategic opportunities and risks from financial reports
+
 ## Dataset
 The dataset consists of **3,000 unstructured text snippets** from business documents and reviews, labeled as either Pros (1) or Cons (0).
 * **Cleaned Data:** 2,996 records (4 rows with corrupted/missing labels were removed).
