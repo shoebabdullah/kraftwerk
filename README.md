@@ -8,21 +8,6 @@
 * **Pros (The "Upside"):** Reasons to say "Yes" (benefits, gains, opportunities).
 * **Cons (The "Downside"):** Reasons to say "No" (risks, costs, potential problems).
 
-### This capstone project develops an end-to-end Natural Language Processing (NLP) and Machine Learning pipeline that analyzes business and financial text to identify positive and negative sentiment, compare machine learning models, discover hidden text patterns through clustering, and generate strategic insights from external PDF documents.
-
-### The system combines:
-
-* Text preprocessing and feature engineering
-* Exploratory Data Analysis (EDA)
-*  Supervised machine learning classification
-*  Hyperparameter optimization
-*  Unsupervised learning
-*  PDF document parsing
-*  Automated strategic pros and cons extraction
-*  Data visualization and reporting
-
-The primary objective is to transform unstructured business narratives into actionable insights that help identify organizational strengths, opportunities, risks, and challenges.
-
 ## Research Question
 To what extent can a machine learning model be trained using unsupervised clustering and supervised ensemble methods to accurately extract and categorize "Pros" and "Cons" from unstructured business documents to improve decision-making efficiency?
 
@@ -44,10 +29,20 @@ This project demonstrates how machine learning and NLP techniques can automatica
 * Compare predictive model performance
 * Extract strategic opportunities and risks from financial reports
 
-## Dataset : CapstoneDataSet.csv
-The dataset consists of **3,000 unstructured text snippets** from business documents and reviews, labeled as either Pros (1) or Cons (0).
-* **Cleaned Data:** 2,996 records (4 rows with corrupted/missing labels were removed).
-* **Class Distribution:** The dataset is perfectly balanced with a ~50/50 split between Pros and Cons, mitigating class imbalance bias.
+### This capstone project develops an end-to-end Natural Language Processing (NLP) and Machine Learning pipeline that analyzes business and financial text to identify positive and negative sentiment, compare machine learning models, discover hidden text patterns through clustering, and generate strategic insights from external PDF documents.
+
+### The system combines:
+
+* Text preprocessing and feature engineering
+* Exploratory Data Analysis (EDA)
+*  Supervised machine learning classification
+*  Hyperparameter optimization
+*  Unsupervised learning
+*  PDF document parsing
+*  Automated strategic pros and cons extraction
+*  Data visualization and reporting
+
+The primary objective is to transform unstructured business narratives into actionable insights that help identify organizational strengths, opportunities, risks, and challenges.
 
 ## Project Architecture
 <img width="348" height="722" alt="image" src="https://github.com/user-attachments/assets/c21e483c-bb4a-4553-95ab-ba07ddc70bc4" />
@@ -60,6 +55,11 @@ The dataset consists of **3,000 unstructured text snippets** from business docum
 * **Data Visualization :** Matplotlib, Seaborn, WordCloud
 * **Document Processing :** PyPDF
 
+## Dataset : CapstoneDataSet.csv
+The dataset consists of **3,000 unstructured text snippets** from business documents and reviews, labeled as either Pros (1) or Cons (0).
+* **Cleaned Data:** 2,996 records (4 rows with corrupted/missing labels were removed).
+* **Class Distribution:** The dataset is perfectly balanced with a ~50/50 split between Pros and Cons, mitigating class imbalance bias.
+  
 ## Text preprocessing and feature engineering
 
 ## Exploratory Data Analysis (EDA) & Feature Engineering
