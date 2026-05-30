@@ -55,7 +55,9 @@ The primary objective is to transform unstructured business narratives into acti
 * **Natural Language Processing :** TF-IDF Vectorization
 * **Data Visualization :** Matplotlib, Seaborn, WordCloud
 * **Document Processing :** PyPDF
-  
+
+## Link to Jupyter Notebook File : https://github.com/shoebabdullah/kraftwerk/blob/main/Capstone%20Project%2024.1%20Final%20Report%20v1.ipynb
+
 ## Project Architecture
 <img width="348" height="722" alt="image" src="https://github.com/user-attachments/assets/c21e483c-bb4a-4553-95ab-ba07ddc70bc4" />
 
