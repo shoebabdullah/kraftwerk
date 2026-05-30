@@ -26,7 +26,7 @@ This project demonstrates how machine learning and NLP techniques can automatica
 * Compare predictive model performance
 * Extract strategic opportunities and risks from financial reports
 
-## This capstone project develops an end-to-end Natural Language Processing (NLP) and Machine Learning pipeline that analyzes business and financial text to identify positive and negative sentiment, compare machine learning models, discover hidden text patterns through clustering, and generate strategic insights from external PDF documents.
+## Executive Summary :  This capstone project develops an end-to-end Natural Language Processing (NLP) and Machine Learning pipeline that analyzes business and financial text to identify positive and negative sentiment, compare machine learning models, discover hidden text patterns through clustering, and generate strategic insights from external PDF documents.
 
 ### The system combines:
 
