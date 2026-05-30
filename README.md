@@ -48,6 +48,7 @@ The primary objective is to transform unstructured business narratives into acti
 * **Programming Language :** Python
 * **Data Processing :** NumPy, Pandas
 * **Machine Learning :** Scikit-Learn
+*                            * **Model Selection :**  train_test_split, GridSearchCV, cross_val_score
 * **Natural Language Processing :** TF-IDF Vectorization
 * **Data Visualization :** Matplotlib, Seaborn, WordCloud
 * **Document Processing :** PyPDF
