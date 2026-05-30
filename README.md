@@ -3,7 +3,7 @@
 # Module 24 Required Capstone Project 24.1: Final Report
 
 ## Overview
-Reading through long business documents to find the "good" and "bad" points takes too much time and often leads to people missing important details. This project builds a smart tool that automatically scans these documents to pull out a balanced list of Pros and Cons, helping people make faster, unbiased decisions.
+## Reading through long business documents to find the "good" and "bad" points takes too much time and often leads to people missing important details. This project builds a smart tool that automatically scans these documents to pull out a balanced list of Pros and Cons, helping people make faster, unbiased decisions.
 
 * **Pros (The "Upside"):** Reasons to say "Yes" (benefits, gains, opportunities).
 * **Cons (The "Downside"):** Reasons to say "No" (risks, costs, potential problems).
@@ -30,6 +30,53 @@ To what extent can a machine learning model be trained using unsupervised cluste
 The dataset consists of **3,000 unstructured text snippets** from business documents and reviews, labeled as either Pros (1) or Cons (0).
 * **Cleaned Data:** 2,996 records (4 rows with corrupted/missing labels were removed).
 * **Class Distribution:** The dataset is perfectly balanced with a ~50/50 split between Pros and Cons, mitigating class imbalance bias.
+
+### Project Architecture
+Dataset
+   │
+   ▼
+Data Cleaning
+   │
+   ▼
+Feature Engineering (TF-IDF)
+   │
+   ▼
+Exploratory Data Analysis
+   │
+   ├── Class Distribution
+   ├── Text Length Analysis
+   ├── TF-IDF Importance Charts
+   └── Word Clouds
+   │
+   ▼
+Supervised Learning
+   │
+   ├── Logistic Regression
+   ├── Decision Tree
+   ├── Random Forest
+   └── Gradient Boosting
+   │
+   ▼
+Model Optimization
+(GridSearchCV)
+   │
+   ▼
+Performance Evaluation
+   │
+   ▼
+Unsupervised Learning
+(PCA + K-Means)
+   │
+   ▼
+PDF Parsing Engine
+   │
+   ▼
+Strategic Insight Extraction
+   │
+   ▼
+Pros / Cons Reporting
+
+## Text preprocessing and feature engineering
 
 ## Exploratory Data Analysis (EDA) & Feature Engineering
 Before feeding the text into machine learning models, the unstructured text was converted into numerical features using **TF-IDF (Term Frequency-Inverse Document Frequency)** Vectorization.
