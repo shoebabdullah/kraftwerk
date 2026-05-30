@@ -75,6 +75,8 @@ Example :
 | Our company achieved record growth              | 1     |
 | Inflation pressures negatively impacted margins | 0     |
 
+## Pros and Cons are extracted from test document : NYSE_NKE_2023
+
 ## Step 1: Data Preparation
 
 The system:
