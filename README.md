@@ -47,7 +47,7 @@ The primary objective is to transform unstructured business narratives into acti
 ## Technologies Used
 * **Programming Language :** Python
 * **Data Processing :** NumPy, Pandas
-* **Machine Learning :** Scikit-Learn
+* **Machine Learning :  Scikit-Learn**
 * **Model Selection  :  train_test_split, GridSearchCV, cross_val_score**
 * **Linear Model     :  LogisticRegression**
 * **Tree             :  DecisionTreeClassifier**
