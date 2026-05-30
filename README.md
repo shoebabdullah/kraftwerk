@@ -12,8 +12,8 @@
 
 ### The system combines:
 
- Text preprocessing and feature engineering
- Exploratory Data Analysis (EDA)
+* Text preprocessing and feature engineering
+* Exploratory Data Analysis (EDA)
  Supervised machine learning classification
  Hyperparameter optimization
  Unsupervised learning
