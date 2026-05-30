@@ -75,6 +75,18 @@ Example :
 | Our company achieved record growth              | 1     |
 | Inflation pressures negatively impacted margins | 0     |
 
+## Step 1: Data Preparation
+
+The system:
+
+Loads the dataset
+Removes null values
+Converts labels to numeric format
+Enforces data consistency
+Output
+
+Clean dataset ready for machine learning.
+
 ## Text preprocessing and feature engineering
 
 ## Exploratory Data Analysis (EDA) & Feature Engineering
