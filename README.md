@@ -50,6 +50,8 @@ The dataset consists of **3,000 unstructured text snippets** from business docum
 * **Class Distribution:** The dataset is perfectly balanced with a ~50/50 split between Pros and Cons, mitigating class imbalance bias.
 
 ## Project Architecture
+<img width="348" height="722" alt="image" src="https://github.com/user-attachments/assets/c21e483c-bb4a-4553-95ab-ba07ddc70bc4" />
+
 Dataset
    │
    ▼
