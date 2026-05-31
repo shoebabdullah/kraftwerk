@@ -107,14 +107,21 @@ Generates histograms showing how document lengths vary across sentiment classes.
 
 <img width="923" height="385" alt="image" src="https://github.com/user-attachments/assets/4ecc054c-5a23-49d7-a6ae-0bd8bc5fd0be" />
 
+## Step 3: Feature Engineering and Advanced Exploratory Data Analysis (EDA)
 
-
-## Text preprocessing and feature engineering
-
-## Exploratory Data Analysis (EDA) & Feature Engineering
 Before feeding the text into machine learning models, the unstructured text was converted into numerical features using **TF-IDF (Term Frequency-Inverse Document Frequency)** Vectorization.
 * Common English stop words were removed.
 * The feature space was limited to the top 1,500 most significant text elements to reduce noise.
+
+**TF-IDF Vectorization:** The project converts text into numerical features. This captures the importance of words across documents while reducing noise.
+**Top TF-IDF Features:** The system identifies the most influential words across the corpus.
+
+<img width="935" height="472" alt="image" src="https://github.com/user-attachments/assets/da152eed-2061-42fd-a0f7-dc8d98b9a7a2" />
+
+**Word Cloud Analysis:** Separate word clouds are generated for: Positive statements & Negative statements
+These visualizations help identify dominant themes in each sentiment category.
+<img width="932" height="263" alt="image" src="https://github.com/user-attachments/assets/0be358a2-b649-4aab-aa11-af0e0ae6142d" />
+
 
 ## Modeling & Results
 
