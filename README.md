@@ -147,16 +147,23 @@ The project applies 3-Fold Cross Validation to measure model stability and gener
     F1 Score
 <img width="951" height="658" alt="image" src="https://github.com/user-attachments/assets/00e1827f-4b5b-4afa-80cb-417356c2a94b" />
 
+## Step 6: Executing PCA and Unsupervised K-Means Clustering
 
-### 2. Unsupervised Pattern Discovery (PCA & K-Means)
-To observe natural groupings blindly (without using labels), an unsupervised pipeline was applied:
-* **PCA (Principal Component Analysis):** Reduced the 1500-dimensional TF-IDF space down to 2 principal components for visualization.
-* **K-Means Clustering:** Segmented the data into exactly 2 natural clusters based on mathematical similarities.
+**Unsupervised Learning**
+**Principal Component Analysis (PCA):** The high-dimensional TF-IDF feature space is reduced to two dimensions.
+Purpose: Visualization, Pattern discovery and Cluster separation analysis.
 
-*Insight:* While K-Means cleanly splits the space into two clusters, comparing this to the true labels reveals a dense region of overlap in the center. Because both positive and negative points share common business terminology (e.g., "product interface"), simple word counts blend together. 
+**K-Means Clustering:** The system applies KMeans(n_clusters=2) to discover natural groupings in the text data.
 
-*(Note: Added `class_distribution.png`, `pca_kmeans_clusters.png`, and `pca_true_labels.png` from your EDA to the repository).*
+## Step 7: Comparing Clustering VS. Ground Truth Labels
+**Cluster Comparison**
+The project compares, Machine-discovered clusters and Human-provided sentiment labels.
 
+<img width="973" height="348" alt="image" src="https://github.com/user-attachments/assets/d24ee227-0a08-4402-827d-cf8d5134f8c3" />
+
+
+
+This demonstrates how closely unsupervised learning aligns with actual sentiment classifications.
 ## Next Steps & Future Work (This will be completed in final capstone project submission in Module 24)
 To improve the tool and fully address the research question, the next phases of the project will focus on:
 1. **Contextual Embeddings:** Transitioning from TF-IDF to contextual deep learning embeddings (e.g., BERT, Word2Vec) to better understand word associations and disambiguate overlapping terminology.
