@@ -99,13 +99,12 @@ Clean dataset ready for machine learning.
 
 ## Step 2: Exploratory Data Analysis (EDA)
 Class Distribution Analysis : Visualizes the balance between Pros (Label 1) and Cons (Label 0).
-Output:
 
 <img width="940" height="548" alt="image" src="https://github.com/user-attachments/assets/17a446c1-31f1-4c6f-a84c-7f4c0166f764" />
 
 Text Length Analysis : Calculates Character counts and Word counts.
 Generates histograms showing how document lengths vary across sentiment classes.
-Output:
+
 <img width="923" height="385" alt="image" src="https://github.com/user-attachments/assets/4ecc054c-5a23-49d7-a6ae-0bd8bc5fd0be" />
 
 
