@@ -122,17 +122,30 @@ Before feeding the text into machine learning models, the unstructured text was 
 These visualizations help identify dominant themes in each sentiment category.
 <img width="932" height="263" alt="image" src="https://github.com/user-attachments/assets/0be358a2-b649-4aab-aa11-af0e0ae6142d" />
 
+## Step 4: Modeling - GRIDSEARCH HYPERPARAMETER TUNING & CROSS-VALIDATION
 
-## Modeling & Results
+**Supervised Machine Learning**
+**Models Evaluated**
+    Logistic Regression - A linear classification model commonly used for text classification.
+    Decision Tree - A rule-based model that learns decision paths from training data.
+    Random Forest - An ensemble of decision trees designed to improve prediction accuracy and reduce overfitting.
+    Gradient Boosting - A boosting algorithm that sequentially improves prediction performance.
 
-### 1. Supervised Baseline Model (Logistic Regression)
-A Logistic Regression model was trained as a baseline to establish a benchmark. 
-* **Training Split:** 80% Train / 20% Test
-* **Overall Accuracy:** **83.00%**
-* **Cons (0):** Precision: 83% | Recall: 85%
-* **Pros (1):** Precision: 83% | Recall: 81%
+**Hyperparameter Optimization**
+Each model undergoes optimization using: GridSearchCV. Parameters are systematically tested to identify the best-performing configuration.
 
-*Insight:* An 83% accuracy score using a simple linear model indicates a strong signal in the dataset, proving that machine learning can accurately extract and categorize these text segments.
+**Cross Validation**
+The project applies 3-Fold Cross Validation to measure model stability and generalization performance.
+
+## Step 5: Visualizing best model performance metrics
+
+**Metrics collected:**
+    Accuracy
+    Precision
+    Recall
+    F1 Score
+<img width="951" height="658" alt="image" src="https://github.com/user-attachments/assets/00e1827f-4b5b-4afa-80cb-417356c2a94b" />
+
 
 ### 2. Unsupervised Pattern Discovery (PCA & K-Means)
 To observe natural groupings blindly (without using labels), an unsupervised pipeline was applied:
