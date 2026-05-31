@@ -138,7 +138,8 @@ Each model undergoes optimization using: GridSearchCV. Parameters are systematic
 **Cross Validation**
 The project applies 3-Fold Cross Validation to measure model stability and generalization performance.
 
-## Step 5: Visualizing best model performance metrics
+## Step 5: Visualizing Best Model Performance Metrics
+To further investigate the research question, I have implemented several advanced supervised learning algorithms. 
 
 **Metrics collected:**
     Accuracy
@@ -160,22 +161,6 @@ Purpose: Visualization, Pattern discovery and Cluster separation analysis.
 The project compares, Machine-discovered clusters and Human-provided sentiment labels.
 
 <img width="973" height="348" alt="image" src="https://github.com/user-attachments/assets/d24ee227-0a08-4402-827d-cf8d5134f8c3" />
-
-
-
-
-
-
-## Expanded Model Comparison
-To further investigate the research question, I have implemented several advanced supervised learning algorithms. Below is a comparison of their performance:
-
-###              Model  CV Mean Accuracy  Test Accuracy  Precision  F1-Score
-### Logistic Regression          0.781309       0.791667   0.800687  0.788494
-###       Random Forest          0.772545       0.783333   0.821970  0.769504
-###   Gradient Boosting          0.736651       0.743333   0.880208  0.686992
-###       Decision Tree          0.744582       0.740000   0.746575  0.736486
-
-*Results show that Logistic Regression performed the best with an accuracy of 78%.*
 
 ## Conclusion
 The results confirm that machine learning can effectively automate the extraction of "Pros" and "Cons" from unstructured text. Future iterations will focus on transformer-based embeddings to improve semantic understanding.
