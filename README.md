@@ -243,6 +243,19 @@ This project demonstrates proficiency in:
 * Data Visualization
 * PDF Text Mining
 * Business Intelligence Analytics
-  
+
+**Future Enhancements**
+
+Potential improvements include:
+
+* Deep Learning models (LSTM, GRU, Transformer architectures)
+* BERT-based sentiment classification
+* Named Entity Recognition (NER)
+* Topic Modeling (LDA)
+* Real-time financial news analysis
+* Interactive dashboard deployment using Streamlit or Power BI
+* Multi-class sentiment classification
+* Explainable AI (SHAP and LIME)
+
 ## Conclusion
 This capstone project presents a comprehensive NLP-driven analytics platform capable of transforming unstructured business text into meaningful insights. By combining supervised learning, unsupervised learning, document parsing, and visualization techniques, the system provides a practical framework for automated sentiment analysis and strategic intelligence extraction from financial and corporate documents.
