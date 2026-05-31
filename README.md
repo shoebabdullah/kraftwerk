@@ -77,7 +77,13 @@ Example :
 | Our company achieved record growth              | 1     |
 | Inflation pressures negatively impacted margins | 0     |
 
-## This document serves as an independent evaluation set, utilized both to stress-test the model's predictive accuracy and to automatically extract actionable strategic Pros and Cons. Evaluation Document : NYSE_NKE_2023 https://github.com/shoebabdullah/kraftwerk/blob/main/NYSE_NKE_2023.pdf
+## This document serves as an independent evaluation set, utilized both to stress-test the model's predictive accuracy and to automatically extract actionable strategic Pros and Cons. Evaluation Document : NYSE_NKE_2023 (Nike FY 2023 Impact Report) https://github.com/shoebabdullah/kraftwerk/blob/main/NYSE_NKE_2023.pdf
+
+The workflow of this capstone project is split into two core phases. 
+
+First, a multi-model supervised learning architecture is trained and cross-validated on a 3,000-sentence textual dataset (CapstoneDataSet.csv). 
+
+Second, the optimized model is applied during production inference to process unseen layouts within the Nike Fiscal Year 2023 Impact Report. Project success is benchmarked on the pipeline's capability to accurately extract, categorize, and visualize corporate Pros and Cons from this raw impact disclosure document.
 
 ## Step 1: Data Preparation
 
