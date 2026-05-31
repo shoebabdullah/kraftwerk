@@ -163,11 +163,7 @@ The project compares, Machine-discovered clusters and Human-provided sentiment l
 
 
 
-This demonstrates how closely unsupervised learning aligns with actual sentiment classifications.
-## Next Steps & Future Work (This will be completed in final capstone project submission in Module 24)
-To improve the tool and fully address the research question, the next phases of the project will focus on:
-1. **Contextual Embeddings:** Transitioning from TF-IDF to contextual deep learning embeddings (e.g., BERT, Word2Vec) to better understand word associations and disambiguate overlapping terminology.
-2. **Ensemble & Advanced Methods:** Utilizing algorithms like Random Forests, XGBoost, or Deep Neural Networks to capture non-linear relationships that the baseline model may have missed.
+
 
 
 ## Expanded Model Comparison
