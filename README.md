@@ -1,6 +1,5 @@
 # Required Capstone Project Module 24.1 - Final Report : Automated Extraction of Strategic Advantages (Pros) and Operational Risks (Cons) from Business Documents Using Machine Learning.
-## Overview
-### Reading through long business documents to find the "good" and "bad" points takes too much time and often leads to people missing important details. This project builds a smart tool that automatically scans these documents to pull out a balanced list of Pros and Cons, helping people make faster, unbiased decisions.
+## Overview : Reading through long business documents to find the "good" and "bad" points takes too much time and often leads to people missing important details. This project builds a smart tool that automatically scans these documents to pull out a balanced list of Pros and Cons, helping people make faster, unbiased decisions.
 
 * **Pros (The "Upside"):** Reasons to say "Yes" (benefits, gains, opportunities).
 * **Cons (The "Downside"):** Reasons to say "No" (risks, costs, potential problems).
