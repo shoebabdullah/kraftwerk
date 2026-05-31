@@ -127,10 +127,10 @@ These visualizations help identify dominant themes in each sentiment category.
 
 **Supervised Machine Learning**
 **Models Evaluated**
-    Logistic Regression - A linear classification model commonly used for text classification.
-    Decision Tree - A rule-based model that learns decision paths from training data.
-    Random Forest - An ensemble of decision trees designed to improve prediction accuracy and reduce overfitting.
-    Gradient Boosting - A boosting algorithm that sequentially improves prediction performance.
+*    **Logistic Regression** - A linear classification model commonly used for text classification.
+*    **Decision Tree** - A rule-based model that learns decision paths from training data.
+*    **Random Forest** - An ensemble of decision trees designed to improve prediction accuracy and reduce overfitting.
+*    **Gradient Boosting** - A boosting algorithm that sequentially improves prediction performance.
 
 **Hyperparameter Optimization**
 Each model undergoes optimization using: GridSearchCV. Parameters are systematically tested to identify the best-performing configuration.
