@@ -210,8 +210,40 @@ Examples:
 This produces an executive-style summary that can assist decision-makers during document reviews.
 
 ## Step 9: Strategic Word Plot Visualization
+Additional word clouds are created from extracted PDF insights.
 
+These visualizations highlight:
+
+**Strength Themes** 
+
+* Growth
+* Expansion
+* Optimization
+* Adoption
+
+**Risk Themes**
+
+* Competition
+* Inflation
+* Volatility
+* Expenses
+  
 <img width="953" height="349" alt="image" src="https://github.com/user-attachments/assets/a2de1ef8-13fe-4f1f-8920-a9f3cf8e70c1" />
 
+**Key Learning Outcomes**
+
+This project demonstrates proficiency in:
+
+* Natural Language Processing (NLP)
+* Feature Engineering
+* Text Classification
+* Machine Learning Model Selection
+* Hyperparameter Optimization
+* Cross Validation
+* Unsupervised Learning
+* Data Visualization
+* PDF Text Mining
+* Business Intelligence Analytics
+  
 ## Conclusion
 This capstone project presents a comprehensive NLP-driven analytics platform capable of transforming unstructured business text into meaningful insights. By combining supervised learning, unsupervised learning, document parsing, and visualization techniques, the system provides a practical framework for automated sentiment analysis and strategic intelligence extraction from financial and corporate documents.
