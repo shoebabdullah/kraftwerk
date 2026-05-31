@@ -168,11 +168,11 @@ Expected PDF location: NYSE_NKE_2023.pdf
 
 The system:
 
-Reads PDF pages
-Extracts text
-Cleans formatting
-Splits content into sentences
-Filters irrelevant statements
+* Reads PDF pages
+* Extracts text
+* Cleans formatting
+* Splits content into sentences
+* Filters irrelevant statements
 
 If no PDF exists, a fallback financial document simulation is used.
 
@@ -195,17 +195,17 @@ The engine automatically generates:
 
 Examples:
 
-Growth opportunities
-Operational efficiencies
-Market expansion initiatives
+* Growth opportunities
+* Operational efficiencies
+* Market expansion initiatives
 
 **Top Strategic Cons**
 
 Examples:
 
-Inflationary pressures
-Competitive threats
-Margin compression risks
+* Inflationary pressures
+* Competitive threats
+* Margin compression risks
 
 This produces an executive-style summary that can assist decision-makers during document reviews.
 
