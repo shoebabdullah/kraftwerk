@@ -162,5 +162,56 @@ The project compares, Machine-discovered clusters and Human-provided sentiment l
 
 <img width="973" height="348" alt="image" src="https://github.com/user-attachments/assets/d24ee227-0a08-4402-827d-cf8d5134f8c3" />
 
+## Step 8: PDF Document Analysis Module
+A unique component of this capstone is the external document analysis engine.
+Expected PDF location: NYSE_NKE_2023.pdf
+
+The system:
+
+Reads PDF pages
+Extracts text
+Cleans formatting
+Splits content into sentences
+Filters irrelevant statements
+
+If no PDF exists, a fallback financial document simulation is used.
+
+**Strategic Insight Extraction**
+The project performs rule-based sentiment scoring on extracted PDF sentences.
+
+**Positive Indicators**
+
+Examples: Growth, Expansion, Profit, Efficiency, Innovation, 
+
+**Negative Indicators**
+
+Examples: Risk, Competition, Inflation, Volatility, Decline
+
+**Strategic Reporting**
+
+The engine automatically generates:
+
+**Top Strategic Pros**
+
+Examples:
+
+Growth opportunities
+Operational efficiencies
+Market expansion initiatives
+
+**Top Strategic Cons**
+
+Examples:
+
+Inflationary pressures
+Competitive threats
+Margin compression risks
+
+This produces an executive-style summary that can assist decision-makers during document reviews.
+
+## Step 9: Strategic Word Plot Visualization
+
+<img width="953" height="349" alt="image" src="https://github.com/user-attachments/assets/a2de1ef8-13fe-4f1f-8920-a9f3cf8e70c1" />
+
 ## Conclusion
-The results confirm that machine learning can effectively automate the extraction of "Pros" and "Cons" from unstructured text. Future iterations will focus on transformer-based embeddings to improve semantic understanding.
+This capstone project presents a comprehensive NLP-driven analytics platform capable of transforming unstructured business text into meaningful insights. By combining supervised learning, unsupervised learning, document parsing, and visualization techniques, the system provides a practical framework for automated sentiment analysis and strategic intelligence extraction from financial and corporate documents.
