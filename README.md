@@ -229,6 +229,32 @@ These visualizations highlight:
   
 <img width="953" height="349" alt="image" src="https://github.com/user-attachments/assets/a2de1ef8-13fe-4f1f-8920-a9f3cf8e70c1" />
 
+**======================= DOCUMENT SENTIMENT SUMMARY REPORT =======================**
+
+**--- TOP STRATEGIC PROS (ADVANTAGES & STRENGTHS) ---**
+* 01. Racial and Ethnic Minorities 30 Engagement and Inclusion 36 Engaging the Next Generation 41 Pay and Benefits 49 Career Growth and Development 58 Supplier 66 Code of Conduct INTRODUCTION *If you have a body, you are an athlete.
+* 02. In FY23, we provided teammates in Canada and India with improved fertility and family planning support – and will continue to evaluate opportunities to enhance these benefits for other teammates outside of the U.S.
+* 03. Eighty-five percent of the employees who used this benefit said it resulted in an improved treatment plan for their healthcare needs.
+* 04. Over time, we have seen that improvement in the well-being of workers also leads to improvements in supplier facility performance through decreased turnover and increased productivity.
+* 05. After implementing the action plan, facility management saw increased performance and better workforce retention in the area targeted for improvement.
+* 06. FY22), expansion of regional service centers that are closer to customers, increased order processing speed and our “no rush” shipping option for digital orders in North America.
+* 07. Our ongoing energy efficiency work also helped contribute to Scope 1 emissions reductions, even as we see weather-related increases in energy use.
+* 08. While actual emissions in HQs and key offices increased, NIKE’s energy efficiency increased as well.
+* 09. This progress is primarily attributed to the continued growth of renewable energy in manufacturing, the reduction of inbound air freight, and the decrease in air freight for digital orders with the expansion of regional service centers and “no rush” shipping options.
+* 10. The increase in emissions versus the baseline is primarily due to business growth, continued popularity of higher-carbon- intensity materials in footwear (such as leather), and the rising emissions intensity of the electricity grid in primary manufacturing regions (particularly Vietnam).
+
+**--- TOP STRATEGIC CONS (RISKS & HEADWINDS) ---**
+* 01. The committee oversees both the risks and opportunities associated with NIKE’s three purpose pillars: People, Planet and Play.
+* 02. For each target our report provides context on our goal, approach and challenges, the initiatives underway to reach the target and updates on the results of our efforts for the fiscal year.
+* 03. Those statements, estimates and projections are not guarantees of future results or performance and are subject to certain known and unknown risks and uncertainties that are difficult to predict, are often beyond our control and could cause actual results to differ materially.
+* 04. These risks and uncertainties are further detailed in our reports filed with the U.S.
+* 05. We also continued to support our employees through challenges related to the COVID-19 pandemic.
+* 06. IMPACT REPORT 56 INTRO TA RGETS P EOPLE P LANET P LAY A PPROACH A PPENDIX PUBLIC AWARENESS However, weaving this work into NIKE’s fabric has its challenges, especially internationally.
+* 07. 2 D evelop Workers: Focusing on the development of individual competencies and organizational capabilities in risk- appropriate areas.
+* 08. We work closely with Pilz, an internationally recognized safety expert, on a program to provide advanced machine safety training and certification for suppliers who operate high-risk machinery.
+* 09. 39 W e identify high-risk suppliers using the American Industrial Hygiene Association’s qualitative and quantitative risk assessment and priority setting guidelines.
+* 10. In FY23, we developed plans for additional training of high-risk suppliers 39 that aim to be completed in FY24.
+ 
 **Key Learning Outcomes**
 
 This project demonstrates proficiency in:
