@@ -29,11 +29,11 @@ This project demonstrates how machine learning and NLP techniques can automatica
 
 ## Key Findings & Analysis :
 
-**Top Performer (Accuracy & F1-Score):** Logistic Regression achieved the highest overall performance in multiple key categories. It leads with a Test Accuracy of 0.791667, a CV Mean Accuracy of 0.781309, and the highest F1-Score of 0.788494.
+**Top Performer (Accuracy & F1-Score): Logistic Regression** achieved the highest overall performance in multiple key categories. It leads with a **Test Accuracy of 0.791667**, a CV Mean Accuracy of 0.781309, and the highest F1-Score of 0.788494.
 
-**Strongest Precision:** Gradient Boosting stands out significantly for its Precision (0.880208), meaning it has the lowest rate of false positives among all the models. However, its overall F1-Score (0.686992) is the lowest, indicating a potential trade-off with its recall.
+**Strongest Precision: Gradient Boosting** stands out significantly for its **Precision (0.880208)**, meaning it has the lowest rate of false positives among all the models. However, its overall F1-Score (0.686992) is the lowest, indicating a potential trade-off with its recall.
 
-**The Baseline Tree Models:** Random Forest performs solidly in second place for accuracy, while the single Decision Tree trails slightly behind, though it maintains a more balanced precision-to-F1 ratio than Gradient Boosting.
+**The Baseline Tree Models: Random Forest** performs solidly in second place for accuracy, while the single **Decision Tree** trails slightly behind, though it maintains a more balanced precision-to-F1 ratio than Gradient Boosting.
 
 ### The system combines:
 
