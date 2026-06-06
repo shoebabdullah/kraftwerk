@@ -35,6 +35,12 @@ This project demonstrates how machine learning and NLP techniques can automatica
 
 **The Baseline Tree Models: Random Forest** performs solidly in second place for accuracy, while the single **Decision Tree** trails slightly behind, though it maintains a more balanced precision-to-F1 ratio than Gradient Boosting.
 
+* **Model	            CV Mean Accuracy	Test Accuracy	    Precision	F1-Score**
+* Logistic Regression	    0.781309	        0.791667	    0.800687	0.788494
+* Random Forest	            0.772545	        0.783333	    0.821970	0.769504
+* Gradient Boosting	        0.736651	        0.743333	    0.880208	0.686992
+* Decision Tree	            0.744582	        0.740000	    0.746575	0.736486
+
 ### The system combines:
 
 * Text preprocessing and feature engineering
