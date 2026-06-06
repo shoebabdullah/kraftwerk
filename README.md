@@ -37,13 +37,6 @@ This project demonstrates how machine learning and NLP techniques can automatica
 
 <img width="750" height="270" alt="image" src="https://github.com/user-attachments/assets/36fa6930-9097-4729-b20b-abe3649f61e0" />
 
-
-* **Model	            | CV Mean Accuracy |	Test Accuracy |	Precision |	F1-Score**
-* Logistic Regression	|   0.781309	   |    0.791667	  |  0.800687 |	0.788494
-* Random Forest	            0.772545	        0.783333	    0.821970	0.769504
-* Gradient Boosting	        0.736651	        0.743333	    0.880208	0.686992
-* Decision Tree	            0.744582	        0.740000	    0.746575	0.736486
-
 ### The system combines:
 
 * Text preprocessing and feature engineering
