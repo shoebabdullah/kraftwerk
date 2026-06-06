@@ -147,7 +147,7 @@ Each model undergoes optimization using: GridSearchCV. Parameters are systematic
 **Cross Validation**
 The project applies 3-Fold Cross Validation to measure model stability and generalization performance.
 
-## Step 5: Visualizing Best Model Performance Metrics
+## Step 5: Model Evaluation And Performance Metrics
 To further investigate the research question, I have implemented several advanced supervised learning algorithms. 
 
 **Metrics collected:**
