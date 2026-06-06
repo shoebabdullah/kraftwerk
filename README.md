@@ -70,6 +70,10 @@ The primary objective is to transform unstructured business narratives into acti
 ## Project Architecture
 <img width="348" height="722" alt="image" src="https://github.com/user-attachments/assets/c21e483c-bb4a-4553-95ab-ba07ddc70bc4" />
 
+The **Project Architecture** establishes a structured workflow for text analytics, beginning with raw dataset ingestion followed by systematic data cleaning and TF-IDF feature engineering. Before transitioning to predictive modeling, the vectorized text undergoes exploratory data analysis across four diagnostic areas: class distribution, text length analysis, TF-IDF importance charts, and word clouds. This initial exploration feeds directly into a supervised learning stage where four core algorithms—Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting—are trained and systematically optimized using GridSearchCV hyperparameter tuning before undergoing rigorous performance evaluation.
+
+Beyond supervised classification, the architecture introduces advanced unsupervised discovery techniques, applying Principal Component Analysis (PCA) for dimensionality reduction alongside K-Means clustering to uncover latent thematic groupings. The pipeline then integrates a downstream PDF parsing engine to ingest and extract text from external documents, feeding the extracted text back through the established pipeline framework. Ultimately, the system syntheses these collective statistical and algorithmic outputs during a strategic insight extraction phase, translating data patterns into an actionable, business-ready Pros/Cons reporting format for stakeholders.
+
 ## Dataset : CapstoneDataSet.csv (Used for training the machine learning model) https://github.com/shoebabdullah/kraftwerk/blob/main/CapstoneDataSet.csv
 The dataset consists of **3,000 unstructured text snippets** from business documents and reviews, labeled as either Pros (1) or Cons (0).
 * **Cleaned Data:** 2,996 records (4 rows with corrupted/missing labels were removed).
